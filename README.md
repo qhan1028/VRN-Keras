@@ -1,4 +1,4 @@
-# vrn-torch-to-keras
+# VRN-Keras
 Transfer pre-trained VRN model from torch to Keras
 
 ### Source of original model
@@ -52,3 +52,6 @@ img = np.array([img])
 
 pred = sess.run(y, feed_dict={x: img})
 ```
+
+### Demo (`Example-Usage.ipynb`)
+![visvis render](images/demo.gif)
