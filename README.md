@@ -52,5 +52,3 @@ img = np.array([img])
 
 pred = sess.run(y, feed_dict={x: img})
 ```
-
-![visvis render](screen_shot.png)
