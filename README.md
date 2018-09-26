@@ -1,6 +1,9 @@
 # VRN-Keras
 Transfer pre-trained VRN model from torch to Keras
 
+### Demo (`Example-Usage.ipynb`)
+![visvis render](images/demo.gif)
+
 ### Source of original model
 "Large Pose 3D Face Reconstruction from a Single Image via Direct Volumetric CNN Regression"
 https://github.com/AaronJackson/vrn<br>
@@ -53,5 +56,3 @@ img = np.array([img])
 pred = sess.run(y, feed_dict={x: img})
 ```
 
-### Demo (`Example-Usage.ipynb`)
-![visvis render](images/demo.gif)
